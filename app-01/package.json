@@ -1,0 +1,17 @@
+{
+  "name": "app-01",
+  "version": "1.0.0",
+  "description": "IS of work in sub 1144380",
+  "main": "index.js",
+  "scripts": {
+    "go": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "60114440136",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^12.0.12",
+    "@types/request": "^2.48.1",
+    "request": "^2.88.0"
+  }
+}
