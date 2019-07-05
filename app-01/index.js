@@ -7,6 +7,8 @@ const rl = readline.createInterface({input: process.stdin, output: process.stdou
 
 function showExchange(rates) {
   rl.question('กรอกจำนวนเงิน (บาท) ', (answer) => {
+    re.requestion('กรอกสกุลเงิน ', (answer2))
+    const typeMoney = answer2
     const money = parseFloat(answer)
     console.log(`ผู้ใช้มีเงิน ${money} บาท`)
     for (let k in rates) {
